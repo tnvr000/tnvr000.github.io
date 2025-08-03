@@ -1,0 +1,49 @@
+@import url(./variables.css);
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-family);
+    background-color: var(--bg-primary-color);
+    color: var(--text-primary-color);
+    transition: background-color 0.4s, color 0.4s;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: var(--primary-color);
+}
+
+.nav {
+    display:flex;
+    position: relative;
+}
+
+.nav .nav-items {
+    text-decoration: none;
+    color: var(--bg-primary-color);
+    padding: 1em 2em;
+}
+
+.nav .active {
+    background-color: var(--bg-primary-color);
+    color: var(--primary-color);
+}
+
+.toggle {
+    cursor: pointer;
+    background: none;
+    border: 1px solid var(--primary-color);
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+footer {
+    padding: 1em;
+    background-color: var(--secondary-color);
+
+}

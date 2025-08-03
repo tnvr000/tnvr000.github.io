@@ -1,0 +1,124 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -0.625em;
+}
+
+.col {
+  padding: 0.625em;
+  box-sizing: border-box;
+}
+
+.col[class="col-span-"] {
+  width: 100%;
+}
+
+/* Mobile-first: default col-span-1 to col-span-24 */
+.col-span-1  { width: 4.1667%; }
+.col-span-2  { width: 8.3333%; }
+.col-span-3  { width: 12.5%; }
+.col-span-4  { width: 16.6667%; }
+.col-span-5  { width: 20.8333%; }
+.col-span-6  { width: 25%; }
+.col-span-7  { width: 29.1667%; }
+.col-span-8  { width: 33.3333%; }
+.col-span-9  { width: 37.5%; }
+.col-span-10 { width: 41.6667%; }
+.col-span-11 { width: 45.8333%; }
+.col-span-12 { width: 50%; }
+.col-span-13 { width: 54.1667%; }
+.col-span-14 { width: 58.3333%; }
+.col-span-15 { width: 62.5%; }
+.col-span-16 { width: 66.6667%; }
+.col-span-17 { width: 70.8333%; }
+.col-span-18 { width: 75%; }
+.col-span-19 { width: 79.1667%; }
+.col-span-20 { width: 83.3333%; }
+.col-span-21 { width: 87.5%; }
+.col-span-22 { width: 91.6667%; }
+.col-span-23 { width: 95.8333%; }
+.col-span-24 { width: 100%; }
+
+/* Tablet and up (≥48em / 768px) */
+@media (min-width: 48em) {
+  .md\:col-span-1  { width: 4.1667%; }
+  .md\:col-span-2  { width: 8.3333%; }
+  .md\:col-span-3  { width: 12.5%; }
+  .md\:col-span-4  { width: 16.6667%; }
+  .md\:col-span-5  { width: 20.8333%; }
+  .md\:col-span-6  { width: 25%; }
+  .md\:col-span-7  { width: 29.1667%; }
+  .md\:col-span-8  { width: 33.3333%; }
+  .md\:col-span-9  { width: 37.5%; }
+  .md\:col-span-10 { width: 41.6667%; }
+  .md\:col-span-11 { width: 45.8333%; }
+  .md\:col-span-12 { width: 50%; }
+  .md\:col-span-13 { width: 54.1667%; }
+  .md\:col-span-14 { width: 58.3333%; }
+  .md\:col-span-15 { width: 62.5%; }
+  .md\:col-span-16 { width: 66.6667%; }
+  .md\:col-span-17 { width: 70.8333%; }
+  .md\:col-span-18 { width: 75%; }
+  .md\:col-span-19 { width: 79.1667%; }
+  .md\:col-span-20 { width: 83.3333%; }
+  .md\:col-span-21 { width: 87.5%; }
+  .md\:col-span-22 { width: 91.6667%; }
+  .md\:col-span-23 { width: 95.8333%; }
+  .md\:col-span-24 { width: 100%; }
+}
+
+/* Small monitor (≥64em / 1024px) */
+@media (min-width: 64em) {
+  .lg\:col-span-1  { width: 4.1667%; }
+  .lg\:col-span-2  { width: 8.3333%; }
+  .lg\:col-span-3  { width: 12.5%; }
+  .lg\:col-span-4  { width: 16.6667%; }
+  .lg\:col-span-5  { width: 20.8333%; }
+  .lg\:col-span-6  { width: 25%; }
+  .lg\:col-span-7  { width: 29.1667%; }
+  .lg\:col-span-8  { width: 33.3333%; }
+  .lg\:col-span-9  { width: 37.5%; }
+  .lg\:col-span-10 { width: 41.6667%; }
+  .lg\:col-span-11 { width: 45.8333%; }
+  .lg\:col-span-12 { width: 50%; }
+  .lg\:col-span-13 { width: 54.1667%; }
+  .lg\:col-span-14 { width: 58.3333%; }
+  .lg\:col-span-15 { width: 62.5%; }
+  .lg\:col-span-16 { width: 66.6667%; }
+  .lg\:col-span-17 { width: 70.8333%; }
+  .lg\:col-span-18 { width: 75%; }
+  .lg\:col-span-19 { width: 79.1667%; }
+  .lg\:col-span-20 { width: 83.3333%; }
+  .lg\:col-span-21 { width: 87.5%; }
+  .lg\:col-span-22 { width: 91.6667%; }
+  .lg\:col-span-23 { width: 95.8333%; }
+  .lg\:col-span-24 { width: 100%; }
+}
+
+/* Large monitor (≥80em / 1280px) */
+@media (min-width: 80em) {
+  .xl\:col-span-1  { width: 4.1667%; }
+  .xl\:col-span-2  { width: 8.3333%; }
+  .xl\:col-span-3  { width: 12.5%; }
+  .xl\:col-span-4  { width: 16.6667%; }
+  .xl\:col-span-5  { width: 20.8333%; }
+  .xl\:col-span-6  { width: 25%; }
+  .xl\:col-span-7  { width: 29.1667%; }
+  .xl\:col-span-8  { width: 33.3333%; }
+  .xl\:col-span-9  { width: 37.5%; }
+  .xl\:col-span-10 { width: 41.6667%; }
+  .xl\:col-span-11 { width: 45.8333%; }
+  .xl\:col-span-12 { width: 50%; }
+  .xl\:col-span-13 { width: 54.1667%; }
+  .xl\:col-span-14 { width: 58.3333%; }
+  .xl\:col-span-15 { width: 62.5%; }
+  .xl\:col-span-16 { width: 66.6667%; }
+  .xl\:col-span-17 { width: 70.8333%; }
+  .xl\:col-span-18 { width: 75%; }
+  .xl\:col-span-19 { width: 79.1667%; }
+  .xl\:col-span-20 { width: 83.3333%; }
+  .xl\:col-span-21 { width: 87.5%; }
+  .xl\:col-span-22 { width: 91.6667%; }
+  .xl\:col-span-23 { width: 95.8333%; }
+  .xl\:col-span-24 { width: 100%; }
+}

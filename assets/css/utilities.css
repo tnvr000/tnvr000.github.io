@@ -1,0 +1,93 @@
+.container {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1em;
+    margin: 0 auto;
+}
+
+/* medium (tablet >= 48em = 768px */
+@media (min-width: 48em) {
+    .container {
+        max-width: 48em;
+    }
+}
+
+/* Largs (small monitor >= 64em = 1024px */
+@media (min-width: 64em) {
+    .container {
+        max-width: 64em;
+    }
+}
+
+/* Extra Large (largs monitor >= 80em = 1280px */
+@media (min-width: 80em) {
+    .container {
+        max-width: 80em;
+    }
+}
+
+img {
+    width: 100%;
+}
+
+/* font sizes */
+.font-xs {
+    font-size: 0.75em;
+}
+
+/* Extra small */
+.font-sm {
+    font-size: 0.875em;
+}
+
+/* Small */
+.font-base {
+    font-size: 1em;
+}
+
+/* Base (default) */
+.font-lg {
+    font-size: 1.125em;
+}
+
+/* Large */
+.font-xl {
+    font-size: 1.25em;
+}
+
+/* Extra large */
+.font-2xl {
+    font-size: 1.5em;
+}
+
+.font-3xl {
+    font-size: 1.875em;
+}
+
+.font-4xl {
+    font-size: 2.25em;
+}
+
+.font-5xl {
+    font-size: 3em;
+}
+
+.font-6xl {
+    font-size: 4em;
+}
+
+.paper {
+    background-color: var(--bg-secondary-color);
+    padding: 1.5em;
+    border-radius: 1.5em;
+}
+
+.card {
+    padding: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2em;
+    text-align: center;
+}

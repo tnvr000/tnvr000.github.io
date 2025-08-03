@@ -1,0 +1,23 @@
+:root {
+    --font-family: 'Inter', sans-serif;
+
+    --primary-color: #2563EB;
+    --secondary-color: #1E293B;
+
+    --bg-primary-color: #FFFFFF;
+    --bg-secondary-color: #e0e1e2;
+
+    --text-primary-color: #0F172A;
+    --text-secondary-color: #E0F2FE;
+}
+
+[data-theme="dark"] {
+    --primary-color: #60A5FA;
+    --secondary-color: #1E293B; /* #93C5FD */
+
+    --bg-primary-color: #0F172A;
+    --bg-secondary-color: #1E293B;
+
+    --text-primary-color: #F1F5F9;
+    --text-secondary-color: #38BDF8;
+}

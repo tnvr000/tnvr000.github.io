@@ -1,0 +1,11 @@
+.dynamic-wrapper {
+    height: 2em;
+    overflow: hidden;
+    position: relative;
+}
+
+.dynamic-text {
+    display: flex;
+    flex-direction: column;
+    transition: transform;
+}
