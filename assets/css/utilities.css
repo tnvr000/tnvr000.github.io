@@ -13,14 +13,14 @@
     }
 }
 
-/* Largs (small monitor >= 64em = 1024px */
+/* Large (small monitor >= 64em = 1024px */
 @media (min-width: 64em) {
     .container {
         max-width: 64em;
     }
 }
 
-/* Extra Large (largs monitor >= 80em = 1280px */
+/* Extra Large (large monitor >= 80em = 1280px */
 @media (min-width: 80em) {
     .container {
         max-width: 80em;
