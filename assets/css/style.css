@@ -17,7 +17,7 @@ header {
 }
 
 .nav {
-    display:flex;
+    display: flex;
     position: relative;
 }
 
@@ -32,12 +32,50 @@ header {
     color: var(--primary-color);
 }
 
+.sidebar-layout {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--bg-secondary-color);
+    border-radius: 1em;
+    margin: 0 -0.625em;
+}
+
+.sidebar-layout .sidebar {
+    width: 25%;
+    background-color: var(--primary-color);
+    border-radius: 1em 0 0 1em;
+    display: flex;
+    flex-direction: column;
+    padding: 2em 0;
+    justify-content: center;
+}
+
+.sidebar-layout .sidebar .sidebar-items {
+    text-decoration: none;
+    color: var(--bg-primary-color);
+    padding: 1em 2em;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 1.125em;
+    text-align: right;
+}
+
+.sidebar-layout .sidebar .active {
+    background-color: var(--bg-secondary-color);
+    color: var(--primary-color);
+}
+
+.sidebar-layout .sidebar-content {
+    width: 75%;
+    border-radius: 0 1em 1em 0;
+}
+
 .toggle {
     cursor: pointer;
     background: none;
     border: 1px solid var(--primary-color);
-    border-radius: 4px;
-    padding: 0.5rem 1rem;
+    border-radius: 1em;
+    padding: 0.5em 1em;
     color: var(--primary-color);
     font-weight: 600;
 }
@@ -45,5 +83,4 @@ header {
 footer {
     padding: 1em;
     background-color: var(--secondary-color);
-
 }

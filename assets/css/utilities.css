@@ -3,6 +3,7 @@
     width: 100%;
     padding: 1em;
     margin: 0 auto;
+    color: var(--text-primary-color);
 }
 
 /* medium (tablet >= 48em = 768px */
@@ -78,17 +79,28 @@ img {
 
 .paper {
     background-color: var(--bg-secondary-color);
-    padding: 1.5em;
-    border-radius: 1.5em;
+    padding: 1em;
+    border-radius: 1em;
     width: 100%;
 }
 
 .card {
-    padding: 1.5em;
-    display: flex;
     align-items: center;
-    justify-content: center;
+    display: flex;
     flex-direction: column;
     gap: 2em;
+    justify-content: center;
+    padding: 1em;
     text-align: center;
 }
+
+/* .envelope {
+    align-items: flex-start;
+    background-color: var(--bg-primary-color);
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    justify-content: flex-start;
+    padding: 1em;
+    text-align: left;
+} */
