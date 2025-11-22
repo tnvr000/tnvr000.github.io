@@ -1,0 +1,30 @@
+.key-value-pairs {
+    /* background-color: red; */
+    width: 100%;
+    padding: 1em;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+.key-value-pair {
+    /* background-color: blue; */
+    display: flex;
+    gap: 1em;
+}
+
+.key {
+    /* background-color: green; */
+    width: 25%;
+    text-align: right;
+    font-weight: bolder;
+}
+
+.value {
+    /* background-color: cyan; */
+    width: 75%;
+    text-align: left;
+}

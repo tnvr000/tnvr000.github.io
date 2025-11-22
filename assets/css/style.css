@@ -47,7 +47,7 @@ header {
     display: flex;
     flex-direction: column;
     padding: 2em 0;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .sidebar-layout .sidebar .sidebar-items {
